@@ -68,13 +68,6 @@ header {
     height: 5rem;
 }
 
-/*.include_footer{*/
-/*overflow: hidden;*/
-/**zoom: 1;*/
-/*}*/
-/*.same_as_footer{*/
-/*height: 5rem;*/
-/*}*/
 footer {
     width: 100%;
     position: fixed;
@@ -94,7 +87,6 @@ footer {
 .first_page span {
     font-size: 2rem;
     color: #5fc0cd;
-    /*border:solid;*/
 }
 
 .mine {
@@ -120,13 +112,11 @@ footer {
 
 .foot_col {
     text-decoration: none;
-    /*border: solid;*/
     height: 10rem;
     text-align: center;
 }
 
 .a {
-    /*border: solid;*/
     display: inline-block;
     position: relative;
     top: 50%;
@@ -251,15 +241,13 @@ main {
 .my_li_ul {
     margin-right: 0;
     padding-right: 0;
-    width:100%;
+    width: 100%;
     display: inline-block;
-    /*vertical-align: middle;*/
 }
 
 .my_cen_li {
-    /*display: table-cell;*/
-    /*vertical-align: middle;*/
-    overflow: hidden;
+    display: table-cell;
+    width: 2000px;
 }
 
 ul {
@@ -278,9 +266,11 @@ li {
     color: #999999;
     font-size: 2.8rem;
 }
-.date span{
+
+.date span {
     margin-left: 4.5rem;
 }
+
 .time_quantum {
     font-size: 2.8rem;
     float: left;
@@ -296,17 +286,13 @@ li {
     background-position: 14rem;
 }
 
-/*.include_txt {*/
-    /*display: table-cell;*/
-    /*vertical-align: middle;*/
-/*}*/
-
 .coor {
     background: url(images/mini_coordinate.png) no-repeat;
     background-position: 1rem;
     margin-left: 0.4rem;
 }
-.coor span{
+
+.coor span {
     font-size: 2.6rem;
     margin-left: 4rem;
     color: #999999;
