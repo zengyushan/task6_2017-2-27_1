@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     font-size: 62.5%;
+    width: 100%;
 }
 
 header {
@@ -66,12 +67,13 @@ header {
     width: 5rem;
     height: 5rem;
 }
+
 /*.include_footer{*/
-    /*overflow: hidden;*/
-    /**zoom: 1;*/
+/*overflow: hidden;*/
+/**zoom: 1;*/
 /*}*/
 /*.same_as_footer{*/
-    /*height: 5rem;*/
+/*height: 5rem;*/
 /*}*/
 footer {
     width: 100%;
@@ -233,6 +235,7 @@ main {
 }
 
 .my_ul {
+    width: 100%;
     border-right: none;
     border-left: none;
     margin-top: -2rem;
@@ -240,8 +243,23 @@ main {
 
 /* 列表内容 */
 .my_li {
+    width: 100%;
     border-right: none;
     z-index: -1;
+}
+
+.my_li_ul {
+    margin-right: 0;
+    padding-right: 0;
+    width:100%;
+    display: inline-block;
+    /*vertical-align: middle;*/
+}
+
+.my_cen_li {
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+    overflow: hidden;
 }
 
 ul {
@@ -258,46 +276,38 @@ li {
     background: url(images/mini_calendar.png) no-repeat;
     background-position: 1rem;
     color: #999999;
-}
-
-.date_span {
     font-size: 2.8rem;
-    margin-left: 4.6rem
 }
-
-.time_quantum_span {
-    margin-left: 4.6rem;
+.date span{
+    margin-left: 4.5rem;
+}
+.time_quantum {
     font-size: 2.8rem;
+    float: left;
+    margin-left: 4.5rem;
 }
 
 .price {
-    display: inline-block;
     float: right;
-    margin-left: 6rem;
-    width: 1rem;
-    background: url(images/detailed_info.png) no-repeat;
-    width: 20rem;
-    background-position: 17rem;
-}
-
-.price_span {
-    font-size: 3rem;
     color: red;
+    background: url(images/detailed_info.png) no-repeat;
+    font-size: 2.8rem;
+    width: 16rem;
+    background-position: 14rem;
 }
 
-.include_txt {
-    display: table-cell;
-    vertical-align: middle;
-}
+/*.include_txt {*/
+    /*display: table-cell;*/
+    /*vertical-align: middle;*/
+/*}*/
 
 .coor {
     background: url(images/mini_coordinate.png) no-repeat;
     background-position: 1rem;
     margin-left: 0.4rem;
 }
-
-.coor_span {
+.coor span{
     font-size: 2.6rem;
-    margin-left: 4.3rem;
+    margin-left: 4rem;
     color: #999999;
 }
