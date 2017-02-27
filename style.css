@@ -1,0 +1,303 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 8.8rem;
+    background-color: #5fc0cd;
+    text-align: center;
+}
+
+.header {
+    height: 8.8rem;
+
+    line-height: 4rem;
+    padding: 1.4rem;
+}
+
+.sup_header {
+    background-color: #55a8b3;
+    display: inline-block;
+
+    border-radius: 6px; /* 所有角都使用圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 6px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 6px; /* Webkit浏览器的私有属性 */
+}
+
+.my_btn {
+    outline: medium; /* 取消点击按钮后出现的边框 */
+    border: none;
+    width: 13rem;
+    height: 6rem;
+    font-size: 2.4rem;
+
+    display: table-cell;
+    vertical-align: middle;
+
+    border-radius: 6px; /* 所有角都使用圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 6px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 6px; /* Webkit浏览器的私有属性 */
+}
+
+.my_btn1 {
+    margin-right: -0.4rem;
+    background-color: #55a8b3;
+    color: #ffffff;
+
+}
+
+.my_btn2 {
+    background-color: #ffffff;
+    color: #5fc0cd;
+}
+
+.coor_icon {
+    position: absolute;
+    background: url(images/img.png) no-repeat;
+    background-size: 4.6rem 20rem;
+    background-position: 0.4rem -11.9rem;
+    top: 2rem;
+    right: 2rem;
+    width: 5rem;
+    height: 5rem;
+}
+/*.include_footer{*/
+    /*overflow: hidden;*/
+    /**zoom: 1;*/
+/*}*/
+/*.same_as_footer{*/
+    /*height: 5rem;*/
+/*}*/
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    height: 9.8rem;
+    background-color: #f8fafb;
+}
+
+.choose_btn {
+    width: 100%;
+}
+
+.first_page {
+    color: #5fc0cd;
+}
+
+.first_page span {
+    font-size: 2rem;
+    color: #5fc0cd;
+    /*border:solid;*/
+}
+
+.mine {
+    color: #999999;
+}
+
+.mine span {
+    font-size: 2rem;
+}
+
+.sub_first_page {
+
+    margin-top: 1.7rem;
+}
+
+.sub_mine {
+    margin-top: 1.7rem;
+}
+
+.mine span {
+    color: #999999;
+}
+
+.foot_col {
+    text-decoration: none;
+    /*border: solid;*/
+    height: 10rem;
+    text-align: center;
+}
+
+.a {
+    /*border: solid;*/
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* 已被访问过的链接 */
+.a:hover {
+    text-decoration: none;
+}
+
+@media (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* 中间列表内容，包含下拉菜单 */
+main {
+    /*border: #ffff00;*/
+    padding: 0;
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    top: 8.8rem;
+    height: 8rem;
+    /*background-color: orange;*/
+}
+
+.container {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.choose_btn {
+    position: absolute;
+    top: 8.8rem;
+}
+
+.pare_btn {
+    width: 100%;
+    margin: 0;
+    /*border: solid red;*/
+}
+
+/* 三个下拉菜单 */
+.my_main_btn {
+    background: url(images/triangle3.png) no-repeat;
+    background-position: 95% 3.5rem;
+    /*border: solid #00ff00;*/
+    width: 100%;
+    height: 8rem;
+    border-right: 1px solid #e1e5e7;
+    border-bottom: 1px solid #e1e5e7;
+    background-color: #ffffff;
+    font-size: 2.8rem;
+    color: #999999;
+
+    border-radius: 0px; /* 所有角都使用圆角，此属性为CSS3标准属性 */
+    -moz-border-radius: 0px; /* Mozilla浏览器的私有属性 */
+    -webkit-border-radius: 0px; /* Webkit浏览器的私有属性 */
+}
+
+.my_main_btn span {
+    /*border:solid;*/
+    display: inline-block;
+}
+
+.my_main_btn:active, .my_main_btn:hover {
+    color: #999999;
+}
+
+.sub1_row {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.mmb1 {
+    padding-left: 0px;
+}
+
+.mmb3 {
+    padding-right: 0px;
+    border-right: none;
+}
+
+.triangular_arrow {
+    color: #999999;
+
+}
+
+.text_span {
+    display: inline-block;
+}
+
+.triangle3_span {
+    display: inline-block;
+}
+
+.my_dm {
+    width: 100%;
+}
+
+.my_last_ul {
+    margin-top: 10rem;
+}
+
+.my_ul {
+    border-right: none;
+    border-left: none;
+    margin-top: -2rem;
+}
+
+/* 列表内容 */
+.my_li {
+    border-right: none;
+    z-index: -1;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none; /* 去掉前面的点 */
+    padding: 0;
+}
+
+.date {
+    background: url(images/mini_calendar.png) no-repeat;
+    background-position: 1rem;
+    color: #999999;
+}
+
+.date_span {
+    font-size: 2.8rem;
+    margin-left: 4.6rem
+}
+
+.time_quantum_span {
+    margin-left: 4.6rem;
+    font-size: 2.8rem;
+}
+
+.price {
+    display: inline-block;
+    float: right;
+    margin-left: 6rem;
+    width: 1rem;
+    background: url(images/detailed_info.png) no-repeat;
+    width: 20rem;
+    background-position: 17rem;
+}
+
+.price_span {
+    font-size: 3rem;
+    color: red;
+}
+
+.include_txt {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.coor {
+    background: url(images/mini_coordinate.png) no-repeat;
+    background-position: 1rem;
+    margin-left: 0.4rem;
+}
+
+.coor_span {
+    font-size: 2.6rem;
+    margin-left: 4.3rem;
+    color: #999999;
+}
